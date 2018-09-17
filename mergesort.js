@@ -14,7 +14,7 @@ function merge(arr1, arr2){
 }
 
 function mergeSort(arr) {
-  let temp = [];
+  let temp = [arr];
 
   for (let i = 0; i < arr.length; i++) {
     if (arr[i].length === 1){
